@@ -1,0 +1,47 @@
+:root {
+  --main--color : #E55556;
+  --first--color : #333333 ;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
+p {
+  font-family: PT Sans, sans-serif;
+}
+.tittle h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 30px 0px;
+
+}
+.tittle h4 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 30px 0px;
+
+}
+.main-color {
+  color: #E55556;
+}
