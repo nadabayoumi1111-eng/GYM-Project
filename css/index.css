@@ -354,11 +354,11 @@ header #Home button:hover {
 }
 #Contact .tittle h4 {
   font-size: 30px;
-  padding: 0px 0px 15px 0px;
+  padding: 0px 0px 15px 10px;
 }
 #Contact .container {
-  width: 83%;
-  padding: 0px 15px;
+  width: 95%;
+  padding: 25px 15px;
 }
 #Contact .container .part1 {
   display: flex;
@@ -366,9 +366,10 @@ header #Home button:hover {
   margin: auto 0px;
   justify-content: center;
   align-items: center;
+  gap: 180px;
 }
 #Contact .container .part1 .col {
-  padding: 50px;
+  padding-bottom: 50px;
 }
 #Contact .container .part1 .col .icon {
   width: 55px;
@@ -401,7 +402,7 @@ header #Home button:hover {
     sans-serif;
 }
 #Contact .container .part2 {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 #Contact .container .part2 form {
@@ -420,6 +421,7 @@ header #Home button:hover {
   border-bottom: 1px solid var(--main--color);
   margin-bottom: 20px;
   padding: 10px;
+  font-size: 15px;
 }
 #Contact .container .part2 form .input input:focus {
   border: none;
@@ -429,13 +431,14 @@ header #Home button:hover {
 }
 #Contact .container .part2 form .massage textarea {
   resize: none;
-  width: 790px;
+  width: 960px;
   height: 200px;
   padding: 10px;
   border: none;
   border-bottom: 1px solid var(--main--color);
   margin-bottom: 5px;
   transition-duration: 0.5s;
+  font-size: 15px;
 }
 #Contact .container .part2 form .massage textarea:focus {
   border: none;
@@ -446,11 +449,12 @@ header #Home button:hover {
   background-color: #000;
   color: #fff;
   font-size: 14px;
-  height: 35px;
-  width: 90px;
+  height: 40px;
+  width: 100px;
   border: 1px solid transparent;
   border-radius: 5px;
   margin-left: 25px;
+  margin-bottom: 25px;
 }
 #Contact .container button:hover {
   background-color: var(--main--color);
