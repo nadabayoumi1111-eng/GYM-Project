@@ -239,11 +239,11 @@
   }
   footer .container .row .part2 .layout {
     display: grid;
-    grid-template-columns: 180px;
+    grid-template-columns: 200px;
     gap: 0px;
   }
   footer .container .row .part2 .layout .img {
-    width: 330px;
+    width: 300px;
     margin-bottom: 15px;
   }
   footer .container .row .part3 .item {
