@@ -239,7 +239,7 @@
   }
   footer .container .row .part2 .layout {
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 180px;
     gap: 0px;
   }
   footer .container .row .part2 .layout .img {
